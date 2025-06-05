@@ -14,12 +14,16 @@ public class FinalFinch extends Finch {
 
     public void navigate(){
         boolean atEnd = false;
+        int moves = 0;
         while(atEnd == false){      
-         int distance = 0;
-          setMove("F", 21,70);
-          distance += 20;
-          if(distance >= 120){
+          setMove("F", 20.64,70);
+          moves++;
+          if(moves == 9 || moves == 11){
             setTurn("R", 90.0, 70);
+            setMove("F", 7.5, 70);
+          }
+          if(moves == 19){
+            setTurn("L", 90.0, 70);
           }
           if(getDistance() <= 19){
             setTurn("R", 90.0, 70);
