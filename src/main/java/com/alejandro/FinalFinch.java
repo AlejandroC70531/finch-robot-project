@@ -11,7 +11,14 @@ public class FinalFinch extends Finch {
     public FinalFinch(String device){
         super(device);
     }
-
+/**
+ * Navigates the maze by moving 20 cm a certain amount of times until an object is hit, and turns to 
+ * the next open direction until it eventually reaches the end where there is no way to turn and 
+ * move to an open space.
+ * 
+ * @param: N/A
+ * @ return: N/A
+ */
     public void navigate(){
         boolean atEnd = false;
         int moves = 0;
