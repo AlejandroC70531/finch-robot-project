@@ -20,9 +20,13 @@ public class FinalFinch extends Finch {
           moves++;
           if(moves == 9 || moves == 11){
             setTurn("R", 90.0, 70);
-            setMove("F", 7.5, 70);
+            setMove("F", 8.0, 70);
           }
-          if(moves == 19){
+          if(moves == 16){
+            setMove("F", 2.0, 70);
+          }
+          if(moves == 18){
+            setMove("F", 2.0, 70);
             setTurn("L", 90.0, 70);
           }
           if(getDistance() <= 19){
