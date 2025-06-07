@@ -26,3 +26,5 @@ Your program must demonstrate your understanding of Java programming concepts fr
 ## Future enhancements
 
 ## Video or images of your robot in action (embedded or linked)
+
+[![Final Finch Navigation] (thumbnail
