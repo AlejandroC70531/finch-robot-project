@@ -20,6 +20,7 @@ Your program must demonstrate your understanding of Java programming concepts fr
 
 ## Description of design choices
 
+
 ## Challenges faced and solutions
 
 ## Future enhancements
